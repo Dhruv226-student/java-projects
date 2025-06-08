@@ -164,7 +164,6 @@ public class BookManagement {
             HashSet<String> categories = new HashSet<>();
             for (Book b : books) {
                 categories.add(b.category);
-
             }
 
             // display all categories
